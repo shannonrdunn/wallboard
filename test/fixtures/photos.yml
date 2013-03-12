@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  filter: MyString
+  username: MyString
+  likes: 1
+  createdtime: 2013-03-11 18:00:25
+  url_lowres: MyString
+  url_standardres: MyString
+  url_thumb: MyString
+  id: 1
+
+two:
+  filter: MyString
+  username: MyString
+  likes: 1
+  createdtime: 2013-03-11 18:00:25
+  url_lowres: MyString
+  url_standardres: MyString
+  url_thumb: MyString
+  id: 1

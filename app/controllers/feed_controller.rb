@@ -4,6 +4,6 @@ class FeedController < ApplicationController
 
     client = Instagram.client(:access_token => session[:access_token])
     @user = client.user
-    @recent_media_items = client.user_recent_media
+    @recent_tagged_items = client.tag_recent_media('slumlyfe')
   end
 end
